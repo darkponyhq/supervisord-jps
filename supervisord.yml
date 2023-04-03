@@ -6,6 +6,7 @@ targetNodes:
   nodeType:
   - nginxphp-dockerized
   - apache-python
+  - litespeedphp
 
 categories:
 - apps/dev-and-admin-tools
@@ -51,8 +52,8 @@ actions:
 
         [supervisord]
         logfile=/var/log/supervisor/supervisord.log  ; (main log file;default $CWD/supervisord.log)
-        logfile_maxbytes=50MB       ; (max main logfile bytes b4 rotation;default 50MB)
-        logfile_backups=10          ; (num of main logfile rotation backups;default 10)
+        logfile_maxbytes=5MB       ; (max main logfile bytes b4 rotation;default 50MB)
+        logfile_backups=5          ; (num of main logfile rotation backups;default 10)
         loglevel=info               ; (log level;default info; others: debug,warn,trace)
         pidfile=/var/run/supervisord.pid ; (supervisord pidfile;default supervisord.pid)
         nodaemon=false              ; (start in foreground if true;default false)
