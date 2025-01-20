@@ -12,7 +12,7 @@ categories:
 - apps/dev-and-admin-tools
 
 name: Supervisor
-version: 3.1.4
+version: 4.2.5
 logo: https://raw.githubusercontent.com/elastx/supervisord-jps/master/logo.png
 homepage: http://supervisord.org/
 description:
